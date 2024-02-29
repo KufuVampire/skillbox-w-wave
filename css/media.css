@@ -153,6 +153,7 @@
   .adv__left {
     padding-top: 122px;
     max-width: 397px;
+    min-height: 400px;
   }
 
   .adv__new {
@@ -161,6 +162,7 @@
     width: 100px;
     height: 100px;
   }
+
 
   .adv__right {
     max-width: 396px;
@@ -376,6 +378,7 @@
     margin-right: 0;
     padding-top: 0;
     max-width: 100%;
+    min-height: 474px;
   }
 
   .adv__new {
@@ -833,6 +836,10 @@
 
   .adv__container {
     padding-bottom: 54px;
+  }
+
+  .adv__left {
+    min-height: 231px;
   }
 
   .adv__new {
