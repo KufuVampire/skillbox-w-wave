@@ -147,7 +147,7 @@
   }
 
   .adv__container {
-    padding-bottom: 96px;
+    padding-bottom: 94px;
   }
 
   .adv__left {
@@ -169,6 +169,10 @@
   .adv__title {
     padding-bottom: 29px;
     background-position: bottom left;
+  }
+
+  .adv__text--mb30 {
+    margin-bottom: 32px;
   }
 
   .about__container {

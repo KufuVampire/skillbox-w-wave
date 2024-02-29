@@ -752,6 +752,7 @@ body {
 .adv__left {
   position: relative;
   max-width: 640px;
+  width: 100%;
   margin-right: 30px;
   padding-top: 9px;
 }
