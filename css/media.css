@@ -241,6 +241,7 @@
     justify-content: center;
     max-width: 100%;
     width: 100%;
+    gap: 30px;
   }
 
   .cards__card {
@@ -263,9 +264,6 @@
 
   .broadcasts__cards {
     margin-bottom: 30px;
-    -webkit-column-gap: 28px;
-    -moz-column-gap: 28px;
-    column-gap: 28px;
   }
 
   .broadcasts__card {
@@ -316,6 +314,10 @@
     margin-bottom: 12px;
   }
 
+  .guests__cards {
+    row-gap: 50px;
+  }
+
   .guests__card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -360,9 +362,6 @@
   .playlists__cards {
     padding-top: 0;
     row-gap: 28px;
-    -webkit-column-gap: 30px;
-    -moz-column-gap: 30px;
-    column-gap: 30px;
   }
 
   .playlists__card {
@@ -380,7 +379,7 @@
   }
 
   .adv__left {
-    margin-bottom: 51px;
+    margin-bottom: 46px;
     margin-right: 0;
     padding-top: 0;
     max-width: 100%;
@@ -398,7 +397,7 @@
   }
 
   .adv__title {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     background-image: url('../img/768/adv-line.svg');
   }
 
@@ -415,7 +414,7 @@
   }
 
   .about__container {
-    padding-bottom: 90px;
+    padding-bottom: 91px;
     background-image: url('../img/768/about-768.svg');
     background-size: 781px 112px;
     background-position: -59px 476px;
@@ -423,13 +422,6 @@
 
   .about__descr {
     margin-bottom: 171px;
-  }
-
-  .about__cards {
-    -webkit-column-gap: 30px;
-    -moz-column-gap: 30px;
-    column-gap: 30px;
-    row-gap: 30px;
   }
 
   .about__card {
@@ -474,7 +466,7 @@
   }
 
   .footer__logo {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   .footer__socials {
@@ -679,7 +671,6 @@
 
   .broadcasts__cards {
     margin-bottom: 60px;
-		column-gap: 30px;
   }
 
   .broadcasts__card {
@@ -810,7 +801,7 @@
   }
 
   .playlists__cards {
-    gap: 30px;
+    row-gap: 30px;
   }
 
   .playlists__card {
@@ -860,7 +851,7 @@
   }
 
   .adv__title {
-		margin-bottom: 19px;
+    margin-bottom: 19px;
     padding-bottom: 21px;
     font-size: 24px;
     line-height: 24px;
