@@ -237,6 +237,12 @@
     padding-bottom: 94px;
   }
 
+  .cards {
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
   .cards__card {
     width: 100%;
     max-width: 100%;
@@ -374,7 +380,7 @@
   }
 
   .adv__left {
-    margin-bottom: 46px;
+    margin-bottom: 51px;
     margin-right: 0;
     padding-top: 0;
     max-width: 100%;
@@ -392,7 +398,7 @@
   }
 
   .adv__title {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     background-image: url('../img/768/adv-line.svg');
   }
 
@@ -409,7 +415,7 @@
   }
 
   .about__container {
-    padding-bottom: 91px;
+    padding-bottom: 90px;
     background-image: url('../img/768/about-768.svg');
     background-size: 781px 112px;
     background-position: -59px 476px;
@@ -468,7 +474,7 @@
   }
 
   .footer__logo {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
   }
 
   .footer__socials {
@@ -620,10 +626,6 @@
   .podcasts__title {
     margin-bottom: 19px;
   }
-
-	.cards {
-		justify-content: center;
-	}
 
   .cards__picture {
     height: 72px;
