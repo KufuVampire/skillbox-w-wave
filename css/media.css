@@ -621,6 +621,10 @@
     margin-bottom: 19px;
   }
 
+	.cards {
+		justify-content: center;
+	}
+
   .cards__picture {
     height: 72px;
   }
@@ -673,6 +677,7 @@
 
   .broadcasts__cards {
     margin-bottom: 60px;
+		column-gap: 30px;
   }
 
   .broadcasts__card {
@@ -853,6 +858,7 @@
   }
 
   .adv__title {
+		margin-bottom: 19px;
     padding-bottom: 21px;
     font-size: 24px;
     line-height: 24px;
@@ -887,7 +893,7 @@
 
   .about__container {
     padding-top: 55px;
-    padding-bottom: 52px;
+    padding-bottom: 51px;
     background-size: 0;
   }
 
@@ -928,7 +934,7 @@
   }
 
   .about__form-wrapper {
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   .about__input {
